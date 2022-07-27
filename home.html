@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Salary Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="C:/Users/NIJU/Downloads/wp4285936-game-of-thrones-4k-wallpapers.jpg">
+<!-- Input Form -->
+<div  class="input form">
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+    <h1 id="heading">employee tenure prediction</h1>
+    
+    <input type="text" name="age" placeholder="age in Years">
+    <input type="text" name="company name" placeholder="company name">
+    <input type="text" name="staff count" placeholder="staff count">
+    <input type="text" name="gender estimate" placeholder="gender estimate">
+    <input type="text" name="mbrLocation" placeholder="mbrLocation">
+    <input type="text" name="posLocation" placeholder="posLocation">
+    <input type="text" name="posTitle" placeholder="posTitle">
+    
+    
+    <br>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+ 
+</div>
+   
+</body>
+</html>
